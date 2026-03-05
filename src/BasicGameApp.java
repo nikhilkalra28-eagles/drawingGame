@@ -137,10 +137,18 @@ public class BasicGameApp implements Runnable,MouseMotionListener, MouseListener
             double dD = Math.hypot(mouseX - dx, mouseY - dy);
 
             // if all these are hit
-            if (dA < 40) hitA = true;
-            if (dB < 40) hitB = true;
-            if (dC < 40) hitC = true;
-            if (dD < 40) hitD = true;
+            if (dA < 40) {
+                hitA = true;
+            }
+            if (dB < 40) {
+                hitB = true;
+            }
+            if (dC < 40) {
+                hitC = true;
+            }
+            if (dD < 40) {
+                hitD = true;
+            }
 
             // if the corners are hit, level up
             if (hitA && hitB && hitC && hitD) {
