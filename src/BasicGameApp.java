@@ -195,9 +195,15 @@ public class BasicGameApp implements Runnable,MouseMotionListener, MouseListener
             trail.add(new Point(mouseX, mouseY));
         }
         // level up
-        if (dA < 40) hitA = true;
-        if (dB < 40) hitB = true;
-        if (dC < 40) hitC = true;
+        if (dA < 40) {
+            hitA = true;
+        }
+        if (dB < 40) {
+            hitB = true;
+        }
+        if (dC < 40) {
+            hitC = true;
+        }
 
         // advancing once corners are hit
         if (hitA && hitB && hitC) {
