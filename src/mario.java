@@ -1,3 +1,5 @@
+// Nik Kalra
+// CS1 Game Submission
 import java.awt.*;
 
 public class mario {
