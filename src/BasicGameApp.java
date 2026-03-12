@@ -49,10 +49,10 @@ public class BasicGameApp implements Runnable,MouseMotionListener, MouseListener
     boolean drawing = false;
     boolean shapeDone = false;
     // corners of triangle and square
-    boolean hitA = false; // corner of triangle
-    boolean hitB = false; //corner of triangle
-    boolean hitC = false; // corner of triangle
-    boolean hitD = false; // corner of triangle
+    boolean hitA = false; // corner of triangle and rect
+    boolean hitB = false; //corner of triangle and Rect
+    boolean hitC = false; // corner of triangle and Rect
+    boolean hitD = false; // corner of Rect
     boolean youWin = false; // youWin boolean
     Rectangle chestBox; // chest hitbox
 
