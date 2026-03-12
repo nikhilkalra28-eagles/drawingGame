@@ -3,7 +3,7 @@
 import java.awt.*;
 
 public class mario {
-
+    // mario variables
     int xpos;
     int ypos;
     int speed;
@@ -17,7 +17,7 @@ public class mario {
     boolean down = false;
     boolean right = false;
     boolean left = false;
-
+    // mario characteristics
     public mario(int xposInput, int yposInput, double dxInput, double dyInput, int widthInput, int heightInput) {
         xpos = xposInput;
         ypos = yposInput;
@@ -26,6 +26,7 @@ public class mario {
         width = widthInput;
         height = heightInput;
 
+        // mario hitbox
         hitbox = new Rectangle(xpos, ypos, width, height);
         // convention for making a rectangle
 
